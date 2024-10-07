@@ -11,7 +11,7 @@ async function getProducts() {
             
             let title = document.createElement('h2')
             let description = document.createElement('p')
-            let price = document.createElement('p');
+            let price = document.createElement('p')
             let thumbnail = document.createElement('img')
             
             title.textContent = product.title
@@ -24,7 +24,7 @@ async function getProducts() {
             container.append(item)
         });
     } catch (error) {
-        console.log('Ошибка при получении данных:', error);
+        console.log('Ошибка при получении данных:', error)
     }
 }
 
